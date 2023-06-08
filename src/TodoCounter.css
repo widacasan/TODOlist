@@ -1,0 +1,27 @@
+.TodoCounter {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+    font-weight: 400;
+    color: #333;
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: fade-in 0.5s ease-in-out forwards;
+  }
+  
+  .TodoCounter span {
+    font-weight: 700;
+    color: #ffbc69;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
